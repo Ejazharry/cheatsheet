@@ -1,0 +1,48 @@
+mvn clean
+
+Explanation: Cleans the build artifacts, such as compiled classes and target directory.
+mvn compile
+
+Explanation: Compiles the source code of the project.
+mvn test
+
+Explanation: Runs tests in the project.
+mvn package
+
+Explanation: Packages the compiled code (e.g., JAR, WAR) into a distributable format.
+mvn install
+
+Explanation: Installs the packaged artifact into the local repository, making it available for other projects.
+mvn dependency:tree
+
+Explanation: Displays the project's dependency tree.
+mvn clean install
+
+Explanation: Cleans the project, compiles the code, runs tests, packages the artifact, and installs it into the local repository.
+mvn clean deploy
+
+Explanation: Cleans the project, compiles the code, runs tests, packages the artifact, and deploys it to a remote repository.
+mvn archetype:generate
+
+Explanation: Generates a project from an archetype (a project template).
+mvn eclipse:eclipse
+
+Explanation: Generates Eclipse IDE files for the project.
+mvn site
+
+Explanation: Generates project documentation and reports in the target/site directory.
+mvn help:effective-pom
+
+Explanation: Displays the effective POM (Project Object Model) after inheritance and properties are applied.
+mvn clean verify -P <profile>
+
+Explanation: Cleans the project, compiles the code, runs tests, and verifies the project using a specific profile.
+mvn clean package -DskipTests
+
+Explanation: Cleans the project, packages the artifact, but skips running tests.
+mvn dependency:resolve
+
+Explanation: Resolves and downloads project dependencies.
+mvn versions:display-plugin-updates
+
+Explanation: Displays available updates for plugins used in the project.
