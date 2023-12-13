@@ -1,66 +1,65 @@
 git init
-
 Initialize a new Git repository.
+
 git clone [repository_url]
-
 Clone a repository from a URL to your local machine.
+
 git add [file]
-
 Add changes in a specific file to the staging area.
+
 git add .
-
 Add all changes in the working directory to the staging area.
+
 git commit -m "Commit message"
-
 Commit the staged changes with a descriptive message.
+
 git status
-
 Show the status of changes as untracked, modified, or staged.
+
 git pull
-
 Fetch changes from a remote repository and merge them into the current branch.
+
 git push [remote] [branch]
-
 Push committed changes to a remote repository and branch.
+
 git branch
-
 List all branches in the repository.
+
 git branch [branch_name]
-
 Create a new branch with the specified name.
+
 git checkout [branch_name]
-
 Switch to the specified branch.
+
 git merge [branch_name]
-
 Merge changes from the specified branch into the current branch.
+
 git log
-
 Display the commit history.
+
 git remote -v
-
 List all remote repositories and their URLs.
+
 git fetch
-
 Fetch changes from a remote repository without merging.
+
 git reset [file]
-
 Unstage changes in a file but keep the modifications.
+
 git reset --hard [commit_hash]
-
 Reset the repository to a specific commit, discarding changes.
+
 git diff
-
 Show the differences between the working directory and the last commit.
+
 git tag [tag_name]
-
 Create a lightweight tag for the current commit.
+
 git remote add [remote_name] [remote_url]
-
 Add a new remote repository.
+
 git remote remove [remote_name]
-
 Remove a remote repository.
-git push --tags
 
+git push --tags
 Push tags to the remote repository.
