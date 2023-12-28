@@ -75,3 +75,23 @@ helm install qa101 stacksimplify/mychart1 --atomic
 # Install Helm Release by creating Kubernetes Namespace
 helm install dev101 stacksimplify/mychart2 --version "0.1.0" --namespace dev --create-namespace 
 
+# Helm Install with --dry-run and --debug command
+helm install myapp901 stacksimplify/mychart1 --set service.nodePort=31240 --dry-run --debug
+
+# Helm Install 
+helm install myapp901 stacksimplify/mychart1 --set service.nodePort=31240
+
+# helm upgrade
+helm upgrade myapp901 stacksimplify/mychart1 -f myvalues.yaml
+
+# helm get values
+helm get values myapp901
+helm get values myapp901 --revision 1
+
+# helm get manifest
+helm get manifest myapp901
+helm get manifest myapp901 --revision 1
+
+helm get all myapp901
+
+
