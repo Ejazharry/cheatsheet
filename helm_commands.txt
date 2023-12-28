@@ -72,5 +72,6 @@ helm install stacksimplify/mychart1 --generate-name
 # when --atomic flagis set, the installation process deletes the installation on failure.
 helm install qa101 stacksimplify/mychart1 --atomic
 
-
+# Install Helm Release by creating Kubernetes Namespace
+helm install dev101 stacksimplify/mychart2 --version "0.1.0" --namespace dev --create-namespace 
 
